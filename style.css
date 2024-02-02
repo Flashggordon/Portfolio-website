@@ -47,4 +47,32 @@ a {
 a:hover {
     color: rgb(163, 153, 203);
     text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(163, 153, 203) ;
+}
+
+.logo {
+    font-size: 2rem;
+}
+.logo:hover {
+    cursor: default;
+}
+
+/* Hambuger menu */
+
+#hamburger-nav {
+    display: none;
+}
+
+.hambuger-menu {
+    display: inline-block;
+    position: relative;
+} 
+.hambuger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;   
+    width: 30px;
+    cursor: pointer;
 }
