@@ -64,7 +64,7 @@ a:hover {
     display: none;
 }
 
-.hambuger-menu {
+.hamburger-menu {
     display: inline-block;
     position: relative;
 } 
@@ -113,20 +113,28 @@ a:hover {
         max-height: 300px;
     }
 
-    .hambuger-icon.open span:first-child {
+    .hamburger-icon.open span:first-child {
         transform: rotate(45deg) translate(10px, 5px);
     }
 
-    .hambuger-icon.open span:nth-child(2) {
+    .hamburger-icon.open span:nth-child(2) {
         opacity: 0;
     }   
 
-    .hambuger-icon.open span:last-child {
+    .hamburger-icon.open span:last-child {
         transform: rotate(-45deg) translate(10px, -5px);
     }
       
-    .hambuger-icon. span:first-child {
+    .hamburger-icon span:first-child {
         transform: none;
     }
     
-
+    .hamburger-icon span:first-child {
+        opacity: 1;
+    }
+    
+    .hamburger-icon span:first-child {
+        transform: none;
+    }
+    
+/* sections */
