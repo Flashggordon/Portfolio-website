@@ -166,12 +166,7 @@
     gap: 5rem;
     height: 80vh;
   }
-  .section_pic-container img {
-    height: 400px;
-    width: 400px;
-    border-radius: 30%;
-  }
-  
+ 
   .section__pic-container {
     display: flex;
     height: 400px;
