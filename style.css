@@ -318,3 +318,30 @@ section {
   margin: auto 0;
 }
 
+/* Experience Section */
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-tile {
+  color: rgb(130, 105, 194);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+ text-align: initial;
+ flex-wrap: wrap;
+ flex-direction: row;
+ gap: 2.5rem;
+ justify-content: space-around;
+}
