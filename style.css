@@ -169,9 +169,15 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   margin: auto 0;
+}
+
+.george-pic{
+  width: 350px;
+  height: 300px;
+  border-radius: 1rem;
 }
 
 .section__text {
@@ -360,3 +366,11 @@ article.icon {
 
 /* Projects Section */
 
+.bootcamp-kitchen-pic{
+  width: 700px;
+  height: 800px;
+  border-radius: 1rem;
+}
+#projects {
+  position: relative;
+}
