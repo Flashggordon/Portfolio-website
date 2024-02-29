@@ -393,3 +393,10 @@ background: rgb(250,250,250);
 }
 
 /* contact page  */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh; 
+}
