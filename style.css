@@ -172,13 +172,18 @@ section {
   height: 200px;
   width: 200px;
   margin: auto 0;
+  
 }
-
-.george-pic{
+.section__pic-container img{
+  border-radius: 2rem;
+  width: 350px;
+  height: 275px;
+}
+/* .george-pic{
   width: 350px;
   height: 275px;
   border-radius: 2rem;
-}
+} */
 
 .section__text {
   align-self: center;
