@@ -396,7 +396,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 180vh; 
+  height: 170vh; 
 
 }
 
@@ -429,4 +429,15 @@ article .icon {
 
 .email-icon {
   height: 2.5rem;
+}
+
+/* footer */
+
+footer {
+  height: 26vh; 
+  margin: 0 1rem; 
+}
+
+footer p {
+  text-align: center;
 }
