@@ -396,7 +396,8 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh; 
+  height: 180vh; 
+
 }
 
 .contact-info-upper-container {
