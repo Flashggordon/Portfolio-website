@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>George Gordon</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
   <!-- Link to external stylesheets -->
 <link rel="stylesheet" href="style.css" />
 <link rel="stylesheet" href="mediaqueries.css" />
@@ -13,6 +16,7 @@
 </head>
 
 <body>
+
   <!-- Desktop navigation bar -->
   <nav id="desktop-nav">
     <div class="logo">George Gordon</div>
@@ -49,20 +53,17 @@
       <img class="george-pic" src="assets/George-wedding.jpeg" alt="George Profile" />
     </div>
 
-    <div class="message">
-      <span>New</span>
-      <span>Portfolio</span>
-      <span>Under construction</span>
-      
-  </div>
   
-
-
-
-    <div class="section__text">
-      <p class="section__text__p1">Hello, I'm </p>
-      <h1 class="title">George Gordon</h1>
-      <p class="section__text__p2">Full stack web developer </p>
+    
+    
+    
+    
+    <div class="message">
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm </p>
+        <h1 class="title">George Gordon</h1>
+        <p class="section__text__p2">Full stack web developer </p>
+      </div>
       <div class="btn-container">
         <button class="btn btn-color-2" onclick="window.open('./assets/George_Gordon_CV.pdf')">Download CV</button>
         <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
@@ -294,12 +295,11 @@
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
-    <div class="experience-details-container">
+    <div class="experience-details-container"> <!-- Keep this as it is -->
+      <div class="project-containers"> <!-- Apply grid styling to this -->
 
-      <div class="project-containers">
-
-        <div class="project-card">
-          <div class="project-img-container">
+          <div class="project-card">
+              <div class="project-img-container">
 
             <img
               src="./assets/password_mobile.png"
@@ -354,9 +354,8 @@
           </div>
         </div> 
 
-
-         <div class="details-container color-container">
-          <div class="article-container">
+        <div class="project-card">
+          <div class="project-img-container">
             <img
               src="./assets/blackjack_game.png"
               alt="Project 3"
@@ -367,14 +366,14 @@
           <div class="btn-container">
             <button
               class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
+              onclick="location.href='https://github.com/Flashggordon/blackjack-game'"
             >
               Github
             </button> 
             
             <button
               class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/'"
+              onclick="location.href='https://flashggordon.github.io/blackjack-game/'"
             >
               Live Demo
             </button>

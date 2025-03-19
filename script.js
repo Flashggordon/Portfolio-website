@@ -8,7 +8,7 @@ function toggleMenu() {
 
 
         // GSAP Animation
-        gsap.fromTo(".message span", 
+        gsap.fromTo(".message H1, .message p", 
             { y: 50, opacity: 0 },
             { 
               y: 0, 
@@ -22,3 +22,4 @@ function toggleMenu() {
             }
         );
   
+

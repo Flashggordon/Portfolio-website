@@ -7,7 +7,10 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  
 }
+
+
 
 html {
   scroll-behavior: smooth;
@@ -318,7 +321,7 @@ section {
 
 .section-container {
   gap: 3rem;
-  height: 80%;
+  height: 60%;
   
 }
 
@@ -459,13 +462,86 @@ article {
   border-color: rgb(163, 163, 163);
 }
 
+/* Ensure Buttons Align at the Bottom */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+/* Ensure Buttons Align at the Bottom */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+
+
+/* 🟢 PROJECTS CONTAINER: Controls the layout */
+.project-containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Makes them horizontal */
+  gap: 60px; /* Space between cards */
+  justify-content: center; /* Centers the grid */
+  align-items: start; /* Ensures all cards align */
+  max-width: 1100px; /* Prevents excessive stretching */
+  margin: auto; /* Centers the grid */
+}
+
+/*  PROJECT CARD: Defines individual project boxes */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 350px; /* Prevents cards from getting too wide */
+  padding: 20px;
+  border: 2px solid #ddd; /* Light grey border */
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  min-height: 500px; /* Ensures uniform card height */
+}
+
+/*  IMAGE CONTAINER: Ensures images are the same size */
+.project-img-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevents oversized images */
+}
+
+/*  IMAGE STYLE: Makes all images uniform */
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures images fill space without stretching */
+  border-radius: 8px;
+}
+
+/* BUTTON CONTAINER: Ensures buttons stay at the bottom */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: auto; /* Pushes buttons to the bottom */
+}
+
+
+
 /* contact page  */
 
 #contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 170vh; 
+  height: 50vh;
 
 }
 
