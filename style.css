@@ -352,6 +352,8 @@ section {
   align-items: center;
   padding: 50px 20px;
   border-radius: 12px;
+  max-width: 1000px;
+  margin: auto; 
   
  
 }
@@ -364,9 +366,16 @@ section {
     justify-content: center;
     max-width: 900px;
     margin: auto;
-    height: 80%;
+    width: 100%;
+    min-height: 400px; /* Set a minimum height to keep cards consistent */
+    max-height: 600px; /* Prevents excessive stretching */
+    max-width: 250px;
+    height: auto;
+    object-fit: contain;
 
 }
+
+
 
 article {
   display: flex;
